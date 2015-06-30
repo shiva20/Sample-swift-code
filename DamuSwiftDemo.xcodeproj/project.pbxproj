@@ -13,6 +13,8 @@
 		101003CC19518B2200741468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101003CA19518B2200741468 /* Main.storyboard */; };
 		101003CE19518B2200741468 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 101003CD19518B2200741468 /* Images.xcassets */; };
 		101003DA19518B2200741468 /* SwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101003D919518B2200741468 /* SwiftDemoTests.swift */; };
+		101003E41951924F00741468 /* one.png in Resources */ = {isa = PBXBuildFile; fileRef = 101003E31951924F00741468 /* one.png */; };
+		101003E6195196C600741468 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101003E5195196C600741468 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +28,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		101003BE19518B2200741468 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		101003BE19518B2200741468 /* DamuSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DamuSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		101003C219518B2200741468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		101003C319518B2200741468 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		101003C619518B2200741468 /* SwiftDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftDemo.xcdatamodel; sourceTree = "<group>"; };
 		101003C819518B2200741468 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		101003CB19518B2200741468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		101003CD19518B2200741468 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		101003D319518B2200741468 /* SwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		101003D319518B2200741468 /* DamuSwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DamuSwiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		101003D819518B2200741468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		101003D919518B2200741468 /* SwiftDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoTests.swift; sourceTree = "<group>"; };
+		101003E31951924F00741468 /* one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = one.png; sourceTree = "<group>"; };
+		101003E5195196C600741468 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				101003E6195196C600741468 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +64,7 @@
 		101003B519518B2200741468 = {
 			isa = PBXGroup;
 			children = (
+				101003E5195196C600741468 /* QuartzCore.framework */,
 				101003C019518B2200741468 /* SwiftDemo */,
 				101003D619518B2200741468 /* SwiftDemoTests */,
 				101003BF19518B2200741468 /* Products */,
@@ -68,8 +74,8 @@
 		101003BF19518B2200741468 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				101003BE19518B2200741468 /* SwiftDemo.app */,
-				101003D319518B2200741468 /* SwiftDemoTests.xctest */,
+				101003BE19518B2200741468 /* DamuSwiftDemo.app */,
+				101003D319518B2200741468 /* DamuSwiftDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +85,7 @@
 			children = (
 				101003C319518B2200741468 /* AppDelegate.swift */,
 				101003C819518B2200741468 /* ViewController.swift */,
+				101003E31951924F00741468 /* one.png */,
 				101003CA19518B2200741468 /* Main.storyboard */,
 				101003CD19518B2200741468 /* Images.xcassets */,
 				101003C519518B2200741468 /* SwiftDemo.xcdatamodeld */,
@@ -115,9 +122,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		101003BD19518B2200741468 /* SwiftDemo */ = {
+		101003BD19518B2200741468 /* DamuSwiftDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 101003DD19518B2200741468 /* Build configuration list for PBXNativeTarget "SwiftDemo" */;
+			buildConfigurationList = 101003DD19518B2200741468 /* Build configuration list for PBXNativeTarget "DamuSwiftDemo" */;
 			buildPhases = (
 				101003BA19518B2200741468 /* Sources */,
 				101003BB19518B2200741468 /* Frameworks */,
@@ -127,14 +134,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiftDemo;
+			name = DamuSwiftDemo;
 			productName = SwiftDemo;
-			productReference = 101003BE19518B2200741468 /* SwiftDemo.app */;
+			productReference = 101003BE19518B2200741468 /* DamuSwiftDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		101003D219518B2200741468 /* SwiftDemoTests */ = {
+		101003D219518B2200741468 /* DamuSwiftDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 101003E019518B2200741468 /* Build configuration list for PBXNativeTarget "SwiftDemoTests" */;
+			buildConfigurationList = 101003E019518B2200741468 /* Build configuration list for PBXNativeTarget "DamuSwiftDemoTests" */;
 			buildPhases = (
 				101003CF19518B2200741468 /* Sources */,
 				101003D019518B2200741468 /* Frameworks */,
@@ -145,9 +152,9 @@
 			dependencies = (
 				101003D519518B2200741468 /* PBXTargetDependency */,
 			);
-			name = SwiftDemoTests;
+			name = DamuSwiftDemoTests;
 			productName = SwiftDemoTests;
-			productReference = 101003D319518B2200741468 /* SwiftDemoTests.xctest */;
+			productReference = 101003D319518B2200741468 /* DamuSwiftDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +175,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 101003B919518B2200741468 /* Build configuration list for PBXProject "SwiftDemo" */;
+			buildConfigurationList = 101003B919518B2200741468 /* Build configuration list for PBXProject "DamuSwiftDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,8 +188,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				101003BD19518B2200741468 /* SwiftDemo */,
-				101003D219518B2200741468 /* SwiftDemoTests */,
+				101003BD19518B2200741468 /* DamuSwiftDemo */,
+				101003D219518B2200741468 /* DamuSwiftDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -194,6 +201,7 @@
 			files = (
 				101003CC19518B2200741468 /* Main.storyboard in Resources */,
 				101003CE19518B2200741468 /* Images.xcassets in Resources */,
+				101003E41951924F00741468 /* one.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +238,7 @@
 /* Begin PBXTargetDependency section */
 		101003D519518B2200741468 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 101003BD19518B2200741468 /* SwiftDemo */;
+			target = 101003BD19518B2200741468 /* DamuSwiftDemo */;
 			targetProxy = 101003D419518B2200741468 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -281,7 +289,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -317,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -330,8 +338,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DamuSwiftDemo;
 			};
 			name = Debug;
 		};
@@ -341,8 +350,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DamuSwiftDemo;
 			};
 			name = Release;
 		};
@@ -361,7 +371,7 @@
 				INFOPLIST_FILE = SwiftDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DamuSwiftDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -377,7 +387,7 @@
 				INFOPLIST_FILE = SwiftDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DamuSwiftDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
@@ -385,7 +395,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		101003B919518B2200741468 /* Build configuration list for PBXProject "SwiftDemo" */ = {
+		101003B919518B2200741468 /* Build configuration list for PBXProject "DamuSwiftDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				101003DB19518B2200741468 /* Debug */,
@@ -394,21 +404,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		101003DD19518B2200741468 /* Build configuration list for PBXNativeTarget "SwiftDemo" */ = {
+		101003DD19518B2200741468 /* Build configuration list for PBXNativeTarget "DamuSwiftDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				101003DE19518B2200741468 /* Debug */,
 				101003DF19518B2200741468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		101003E019518B2200741468 /* Build configuration list for PBXNativeTarget "SwiftDemoTests" */ = {
+		101003E019518B2200741468 /* Build configuration list for PBXNativeTarget "DamuSwiftDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				101003E119518B2200741468 /* Debug */,
 				101003E219518B2200741468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
